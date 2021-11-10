@@ -7,7 +7,7 @@ app = Flask(__name__, template_folder='templates/')
 @app.route('/')
 def home():
     return render_template('index.html',
-                           text="Cool！")  # change this
+                           text="小呆~ Cool！")  # change this
 
 
 @app.route('/download')
